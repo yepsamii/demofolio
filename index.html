@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Abdur Rahman (Sami) — Backend engineer, traced in one request</title>
+<meta name="description" content="Abdur Rahman (Sami), software engineer in Dhaka. Node.js, Express, PostgreSQL, Redis, Kubernetes. Scroll to follow one request through the systems he builds.">
+<meta name="theme-color" content="#101319">
+<meta property="og:title" content="Abdur Rahman (Sami) — Backend engineer">
+<meta property="og:description" content="Follow one request through the services Sami builds: gateway, auth, Redis, Postgres, Kubernetes, Sentry.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./styles.css">
+<script type="module" src="./main.js"></script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="header">
+  <a class="header__logo" href="#hop-client">Sami<span class="header__dot" aria-hidden="true"></span></a>
+  <p class="header__status label"><span class="pulse" aria-hidden="true"></span>Dhaka · <span data-clock>—</span></p>
+  <a class="header__cta link" href="#hop-response">Contact</a>
+</header>
+
+<div class="layout">
+  <!-- The trace: topology + log. Also the site's navigation. -->
+  <aside class="trace" aria-label="Request trace">
+    <nav class="trace__map" data-map aria-label="Chapters"></nav>
+    <ol class="trace__log" data-log></ol>
+  </aside>
+
+  <main id="main" tabindex="-1" class="chapters">
+
+    <section class="hop hop--hero" id="hop-client" data-hop="0">
+      <p class="label">00 · client · GET /abdur-rahman</p>
+      <h1 class="hero__title">Abdur Rahman<span class="hero__aka">Sami, to most people.</span></h1>
+      <p class="hero__lede">Software engineer. I build the services a request passes through, and I stay on call for them in production.</p>
+      <p class="hero__hint label" aria-hidden="true">Scroll to send the request ↓</p>
+    </section>
+
+    <section class="hop" id="hop-gateway" data-hop="1">
+      <p class="label">01 · api-gateway · routed</p>
+      <h2>Three years behind the gateway.</h2>
+      <p>I've been a backend engineer for 3+ years, working on microservices and production applications. Most days I live in Node.js, Express.js, SQL and Redis: designing APIs, caching them, securing them, and debugging them once they meet real traffic.</p>
+    </section>
+
+    <section class="hop" id="hop-auth" data-hop="2">
+      <p class="label">02 · auth · jwt verified</p>
+      <h2>Software Engineer at Poridhi.</h2>
+      <p class="meta">Mar 2023 – Present · Bangladesh</p>
+      <p>I joined Poridhi on the frontend. I built the product from the ground up with React.js and Next.js, then moved deeper into the backend.</p>
+      <ul class="list">
+        <li>Authentication and JWT sessions</li>
+        <li>WebSockets for real-time features</li>
+        <li>Caching and rate limiting for production applications</li>
+      </ul>
+    </section>
+
+    <section class="hop" id="hop-cache" data-hop="3">
+      <p class="label">03 · redis · cache hit · skills:*</p>
+      <h2>What's already warm in cache.</h2>
+      <dl class="skills">
+        <div><dt>Backend</dt><dd>Node.js, Express.js, REST APIs, Microservices, JWT</dd></div>
+        <div><dt>Infrastructure</dt><dd>Redis, Docker, Kubernetes (k3s/kind), GitHub Actions, ArgoCD</dd></div>
+        <div><dt>Frontend</dt><dd>React.js, Next.js, TailwindCSS, shadcn/ui, TanStack Query, Axios</dd></div>
+        <div><dt>Languages</dt><dd>JavaScript, Python</dd></div>
+        <div><dt>Tools</dt><dd>Git, Postman, Sentry</dd></div>
+      </dl>
+    </section>
+
+    <section class="hop" id="hop-courses" data-hop="4">
+      <p class="label">04 · course-svc → postgres · query ok</p>
+      <h2>Four services out of nine.</h2>
+      <p>I built and maintain 4+ backend microservices in a 9+ service architecture, using Node.js and Express.js.</p>
+      <p>The biggest of these is the <strong>Course Management System v3</strong>, which I built end to end on Node.js, Express.js and PostgreSQL. I designed its REST APIs and the relational data workflows behind core course functionality.</p>
+      <p class="stat"><span class="stat__num">4+</span><span class="label">of 9+ services</span></p>
+    </section>
+
+    <section class="hop" id="hop-deploy" data-hop="5">
+      <p class="label">05 · k8s · argocd · synced</p>
+      <h2>Shipped, scaled, observed.</h2>
+      <p>I use Redis, Docker and Kubernetes for application performance, deployment and scalability, with GitHub Actions for CI and ArgoCD for GitOps delivery.</p>
+    </section>
+
+    <section class="hop" id="hop-sentry" data-hop="6">
+      <p class="label label--err">06 · sentry · issue captured</p>
+      <h2>When it breaks, I'm there.</h2>
+      <p>I troubleshoot production issues with Sentry and Postman, and I contribute to the team's engineering and code-quality practices so the same bug doesn't page us twice.</p>
+    </section>
+
+    <section class="hop" id="hop-puku" data-hop="7">
+      <p class="label">07 · puku-desktop · code tab</p>
+      <h2>Now: Puku Desktop.</h2>
+      <p>I'm contributing to Puku Desktop, mostly on the Code Tab, where I implement and improve core application functionality.</p>
+    </section>
+
+    <section class="hop hop--response" id="hop-response" data-hop="8">
+      <p class="label label--ok">08 · 200 OK · response body</p>
+      <h2>Response, in full.</h2>
+
+      <div class="facts">
+        <article>
+          <p class="label">Award</p>
+          <h3>Champions, AI Hackathon 2025</h3>
+          <p class="meta">Vivasoft Ltd. · Jan 2025</p>
+        </article>
+        <article>
+          <p class="label">Leadership</p>
+          <h3>Hackathon lead &amp; organizer</h3>
+          <p>In 2025 I led a full-day hackathon: planning, coordination, participants and event execution.</p>
+        </article>
+        <article>
+          <p class="label">Judging</p>
+          <h3>BUP CSE Fest · IUB AI Hackathon</h3>
+          <p>I judged both, evaluating technical implementation and problem solving.</p>
+        </article>
+        <article>
+          <p class="label">Education</p>
+          <h3>Mechatronics &amp; Industrial Engineering</h3>
+          <p class="meta">Chittagong University of Engineering and Technology · 2022 – 2026</p>
+        </article>
+      </div>
+
+      <div class="contact" id="contact">
+        <p class="label">Open a connection</p>
+        <a class="contact__mail" href="mailto:abrahmansw@gmail.com">abrahmansw@gmail.com</a>
+        <ul class="contact__links" data-links></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Abdur Rahman (Sami) · Dhaka, Bangladesh</p>
+    <p class="label">Built without a framework · <span data-total>—</span></p>
+  </footer>
+</div>
+</body>
+</html>
